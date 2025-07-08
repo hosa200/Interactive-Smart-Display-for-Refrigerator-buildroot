@@ -1,0 +1,5 @@
+
+[submodule "buildroot"]
+	path = buildroot
+	url = https://gitlab.com/buildroot.org/buildroot/
+	branch = 2024.2.x
