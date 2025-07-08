@@ -6,15 +6,15 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-LDD_VERSION = 17e9f59df4c88f1a866f5f747c2ab3c5444679a0
+LDD_VERSION = aece46a37c8218826c580a6c47b5f9933087838d
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
-LDD_SITE = git@github.com:cu-ecen-aeld/assignment-7-hosa200.git
+LDD_SITE = git@github.com:hosa200/Interactive-Smart-Display-for-Refrigerator.git
 LDD_SITE_METHOD = git
 LDD_GIT_SUBMODULES = YES
-LDD_MODULE_SUBDIRS = misc-modules
-LDD_MODULE_SUBDIRS += scull
+LDD_MODULE_SUBDIRS = ldd3/misc-modules
+LDD_MODULE_SUBDIRS += ldd3/scull
 
 #define LDD_BUILD_CMDS
 #	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)/misc-modules all
